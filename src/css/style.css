@@ -301,3 +301,36 @@ html {
   text-align: center;
   color: #252525;
 }
+
+/* webinar */
+
+.webinar {
+  background-color: #0f0b0b;
+  padding: 50px 0;
+}
+
+.webinar__title {
+  margin-top: 40px;
+  font-weight: 500;
+  font-size: 30px;
+  color: #fff;
+}
+
+.webinar__subtitle {
+  margin-top: 20px;
+  font-size: 36px;
+  color: #f9bf3b;
+}
+
+.webinar__text {
+  margin-top: 20px;
+  font-weight: 500;
+  font-size: 23px;
+  text-align: center;
+  color: #efefef;
+}
+
+.webinar__img {
+  display: block;
+  margin: 0 auto;
+}

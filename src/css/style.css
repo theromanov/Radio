@@ -334,3 +334,35 @@ html {
   display: block;
   margin: 0 auto;
 }
+
+/* footer */
+
+.footer {
+  padding: 58px 0;
+  background-color: #1a1a1a;
+}
+
+.footer__wrapper {
+  text-align: center;
+}
+
+.footer__link,
+span {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #888;
+}
+
+.footer span {
+  text-decoration: none;
+}
+
+.footer__link-call {
+  display: block;
+  margin: 0 auto;
+  text-decoration: none;
+}

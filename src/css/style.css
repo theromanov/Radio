@@ -11,6 +11,7 @@ html {
 .container {
   max-width: 1140px;
   margin: 0 auto;
+  position: relative;
 }
 
 .title {
@@ -75,7 +76,6 @@ html {
 /* promo */
 
 .promo {
-  min-height: 800px;
   background: url("../images/main-bg.jpg") center center / cover no-repeat;
   padding: 22px 0 53px 0;
 
@@ -174,4 +174,47 @@ html {
   line-height: 131%;
   text-align: center;
   color: #4a4a4a;
+}
+
+/* radio */
+
+.radio {
+  padding: 100px 0 140px 0;
+  background-color: #0f0b0b;
+}
+
+.radio__img {
+  width: 615px;
+  height: 351px;
+  object-fit: cover;
+  position: absolute;
+  z-index: 100;
+  top: 86px;
+  left: -83px;
+}
+
+.radio__title {
+  text-align: right;
+  font-size: 30px;
+}
+
+.radio__descr {
+  position: relative;
+  font-weight: 300;
+  font-size: 16px;
+  text-align: right;
+  color: #fff;
+  z-index: 1000;
+
+  &.radio__descr_medium {
+    font-weight: 500;
+  }
+}
+
+.radio__wrapper {
+  margin-top: 16px;
+  padding-left: 390px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 19.2px;
 }

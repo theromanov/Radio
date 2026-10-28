@@ -218,3 +218,60 @@ html {
   flex-direction: column;
   row-gap: 19.2px;
 }
+
+/* skills */
+
+.skills {
+  padding: 80px 0 100px 0;
+  background: url("../images/skills-bg.jpg") center center / cover no-repeat;
+
+  .divider {
+    margin-top: 12px;
+  }
+}
+
+.skills__title {
+  font-weight: 400;
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #efefef;
+}
+
+.skills__wrapper {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 30px;
+}
+
+.skills__item {
+  width: 224px;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+
+.skills__circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 115px;
+  height: 115px;
+  background-color: #f9bf3b;
+  border-radius: 100%;
+
+  img {
+    max-width: 50px;
+  }
+}
+
+.skills__descr {
+  margin-top: 18px;
+  font-weight: 300;
+  font-size: 16px;
+  text-align: center;
+  color: #efefef;
+}

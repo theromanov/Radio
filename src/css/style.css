@@ -275,3 +275,29 @@ html {
   text-align: center;
   color: #efefef;
 }
+
+/* skills */
+
+.present {
+  padding: 80px 0;
+  background-color: #efefef;
+
+  .btn {
+    margin-top: 60px;
+  }
+}
+
+.present__img {
+  display: block;
+  margin: 0 auto;
+  max-width: 155px;
+}
+
+.present__text {
+  margin-top: 80px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 150%;
+  text-align: center;
+  color: #252525;
+}
